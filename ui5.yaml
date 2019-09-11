@@ -1,0 +1,22 @@
+specVersion: '1.0'
+metadata:
+  name: ui5-deployer-app-test
+type: application
+deployer:
+  type: sap-netweaver
+  sourcePath: /dist
+  connection:
+    url: https://dev.my-sap-server.com
+    proxy:
+    strictSSL: false
+    SSLCertificatePath: /certs/ssl-certificate.pem
+  abapRepository:
+    client: 100
+    language: EN
+    transportRequest: ABAPDK999999
+    package: ZMYPACKAGE
+    bspApplication: ZDEPLOYAPP001
+    bspApplicationText: TEST DEPLOY APP x1
+  credentials:
+    username: MyUsername
+    password: MyPassword

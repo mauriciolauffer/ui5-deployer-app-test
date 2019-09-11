@@ -1,0 +1,24 @@
+{
+  "name": "ui5-deployer-app-test",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build",
+    "deploy": "ui5 deploy",
+    "deploy-tr": "ui5 deploy --transport-request=ABAPDK99999",
+    "deploy-login": "ui5 deploy --username=MyUsername --password=MyPassword"
+  },
+  "author": "Mauricio Lauffer",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "ui5-deployer": "git+https://github.com/mauriciolauffer/ui5-deployer.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mauriciolauffer/ui5-deployer-app-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mauriciolauffer/ui5-deployer-app-test/issues"
+  }
+}

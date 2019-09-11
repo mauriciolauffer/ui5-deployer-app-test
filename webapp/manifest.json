@@ -1,0 +1,29 @@
+{
+  "sap.app": {
+    "id": "mlauffer.ui5.deployer.app.test",
+    "type": "application",
+    "i18n": "i18n/i18n.properties"
+  },
+  "sap.ui5": {
+    "dependencies": {
+      "libs": {
+        "sap.ui.core": {},
+        "sap.m": {}
+      }
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "mlauffer.ui5.deployer.app.test.i18n.i18n"
+        }
+      }
+    },
+    "rootView": {
+      "viewName": "mlauffer.ui5.deployer.app.test.view.App",
+      "id": "rootApp",
+      "type": "XML",
+      "async": true
+    }
+  }
+}
